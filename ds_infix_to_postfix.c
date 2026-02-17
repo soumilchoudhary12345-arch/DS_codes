@@ -78,11 +78,16 @@ void convert(char infix[],char postfix[])
         }
         else//close bracket
         {
-            while(stacktop(&s)!='(')
+            if(isempty(&s))
+                push(&s,x);
+            else
             {
-                postfix[cnt++]=pop(&s);
+                while(stacktop(&s)!='(')
+                {
+                    postfix[cnt++]=pop(&s);
+                }
+                pop(&s);
             }
-            pop(&s);
         }
     }
     while(isempty(&s)==0)
