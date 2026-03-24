@@ -1,0 +1,15 @@
+queue_linear.c is linear queue code with int type
+BFS--breadth first search algo to travers in a graph / matrix /tree/
+:   📘 Definition (Concept)
+
+    Breadth-First Search (BFS) explores a graph level by level.
+
+    Start from a source vertex 𝑠
+
+    Visit all vertices adjacent to 𝑠
+
+    Then visit all vertices adjacent to those vertices
+
+    Continue level by level
+
+    It explores neighbors first before going deeper.
