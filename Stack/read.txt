@@ -1,5 +1,5 @@
 # DS_codes
-stack .c is used to make neew codes of stack likke it's appllication infix to postfix 
-eval of postfix 
-validity of parathesis
-queeu.c is used to make new codes of queue
+stack_int.c is the base file for stack of int type in lang c
+stack_String.c is the base file for stack of string type in languade c
+stack validity of parathesis(this code doed uses char stack but it is same as normal stack of int)
+stack infix_to_postfix conversion is how compiler uses stack data type to command ALU(arithmatic and logic unit inside a CPU)

@@ -85,6 +85,7 @@ void convert(char infix[],char postfix[])
                 while(stacktop(&s)!='(')
                 {
                     postfix[cnt++]=pop(&s);
+          
                 }
                 pop(&s);
             }
